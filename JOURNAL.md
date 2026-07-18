@@ -13,13 +13,13 @@ I started this project to learn more about robotics, embedded systems, and RC ve
 
 The long-term goal is to turn this prototype into a modular RC platform that can later become a Formula One style RC car with proportional steering, telemetry, and better electronics.
 
-**Total time spent: 1 hour**
+**Total time spent: 0.5 hour**
 
 ---
 
 # Electronics and Wiring
 
-![Current Build](images/current_build.jpg)
+![Current Build](images/current_wiring.jpg)
 
 The first hardware milestone was wiring the ESP8266 to the L293N motor driver.
 
@@ -42,7 +42,7 @@ After completing the wiring, I verified every connection and confirmed that the 
 
 # First Firmware
 
-![Current Build](images/current_build.jpg)
+![Current Build](images/old_firmware.jpg)
 
 The initial firmware hosted a Wi-Fi access point so a phone could connect directly to the ESP8266.
 
@@ -61,7 +61,7 @@ After testing, I discovered that the virtual joystick wasn't ideal for precise d
 
 # Improving the Controls
 
-![Current Build](images/current_build.jpg)
+![Current Build](images/next_control.jpg)
 
 The touchscreen joystick was replaced with an eight-direction control pad. Although this was easier to use, it still didn't provide the precision I wanted.
 
@@ -73,7 +73,7 @@ After experimenting with the browser controls, I decided to move to a real contr
 
 # PS4 Controller Integration
 
-![Current Build](images/current_build.jpg)
+![Current Build](images/current_control.jpg)
 
 Instead of connecting the controller directly to the ESP8266, I wrote a Python bridge application.
 
@@ -93,13 +93,7 @@ Current controls:
 | R2 | Analog forward throttle |
 | L2 | Analog braking and reverse |
 
-**Total time spent: 1.5 hours**
-
----
-
 # Firmware Improvements
-
-![Current Build](images/current_build.jpg)
 
 Several improvements were made while testing:
 
@@ -113,7 +107,7 @@ Several improvements were made while testing:
 
 There were also several debugging sessions involving Wi-Fi connectivity, firmware uploads, and WebSocket communication.
 
-**Total time spent: 0.5 hours**
+**Total time spent: 2.5 hours**
 
 ---
 
