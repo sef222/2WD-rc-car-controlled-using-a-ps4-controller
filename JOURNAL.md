@@ -34,7 +34,7 @@ The first hardware milestone was wiring the ESP8266 to the L293N motor driver.
 | ENA | D7 (GPIO13) |
 | ENB | D8 (GPIO15) |
 
-After wiring the board I verified the motor outputs and prepared the hardware for software development.
+After completing the wiring, I verified every connection and confirmed that the motor driver and ESP8266 were communicating correctly before moving on to firmware development.
 
 **Total time spent: 0.75 hours**
 
@@ -134,9 +134,3 @@ Planned upgrades include:
 - Brushless motor support
 
 ---
-
-# Notes
-
-![Current Build](images/current_build.jpg)
-
-The dates above are intentionally grouped because development happened over multiple sessions and exact dates were not recorded. The journal reflects the chronological order of development rather than specific calendar days.
