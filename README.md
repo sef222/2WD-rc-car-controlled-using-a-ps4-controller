@@ -130,10 +130,3 @@ ESP8266-PS4-RC/
 ```
 
 ---
-
-
-# License
-
-MIT License
-
-Feel free to modify, improve, and share the project.
