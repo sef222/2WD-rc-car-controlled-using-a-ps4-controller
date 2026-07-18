@@ -1,7 +1,3 @@
-from pathlib import Path
-from textwrap import dedent
-
-md = dedent("""\
 ---
 title: "ESP8266 PS4 RC Car"
 author: "Seif Safina"
@@ -11,15 +7,19 @@ created_at: "2026-07-18"
 
 # Project Started
 
+![Current Build](images/current_build.jpg)
+
 I started this project to learn more about robotics, embedded systems, and RC vehicle design while keeping the cost as low as possible. Instead of buying a ready-made RC car, I decided to build one from individual components so I could understand every part of the system.
 
 The long-term goal is to turn this prototype into a modular RC platform that can later become a Formula One style RC car with proportional steering, telemetry, and better electronics.
 
-![Project Components](images/components.jpg)
+**Total time spent: 1 hour**
 
-**Total time spent: 1 hours**
+---
 
 # Electronics and Wiring
+
+![Current Build](images/current_build.jpg)
 
 The first hardware milestone was wiring the ESP8266 to the L293N motor driver.
 
@@ -36,11 +36,13 @@ The first hardware milestone was wiring the ESP8266 to the L293N motor driver.
 
 After wiring the board I verified the motor outputs and prepared the hardware for software development.
 
-![Wiring](images/wiring.jpg)
-
 **Total time spent: 0.75 hours**
 
+---
+
 # First Firmware
+
+![Current Build](images/current_build.jpg)
 
 The initial firmware hosted a Wi-Fi access point so a phone could connect directly to the ESP8266.
 
@@ -53,21 +55,25 @@ Features included:
 
 After testing, I discovered that the virtual joystick wasn't ideal for precise driving.
 
-![Web Controller](images/web_controller.png)
+**Total time spent: 1 hour**
 
-**Total time spent: 1 hours**
+---
 
 # Improving the Controls
+
+![Current Build](images/current_build.jpg)
 
 The touchscreen joystick was replaced with an eight-direction control pad. Although this was easier to use, it still didn't provide the precision I wanted.
 
 After experimenting with the browser controls, I decided to move to a real controller.
 
-![Directional Controls](images/dpad.png)
-
 **Total time spent: 1.5 hours**
 
+---
+
 # PS4 Controller Integration
+
+![Current Build](images/current_build.jpg)
 
 Instead of connecting the controller directly to the ESP8266, I wrote a Python bridge application.
 
@@ -87,11 +93,13 @@ Current controls:
 | R2 | Analog forward throttle |
 | L2 | Analog braking and reverse |
 
-![Python Bridge](images/python_bridge.png)
-
 **Total time spent: 1.5 hours**
 
+---
+
 # Firmware Improvements
+
+![Current Build](images/current_build.jpg)
 
 Several improvements were made while testing:
 
@@ -105,11 +113,13 @@ Several improvements were made while testing:
 
 There were also several debugging sessions involving Wi-Fi connectivity, firmware uploads, and WebSocket communication.
 
-![Firmware Development](images/firmware.png)
-
 **Total time spent: 0.5 hours**
 
+---
+
 # Current Status
+
+![Current Build](images/current_build.jpg)
 
 The car is functional as a software development platform. The focus is now shifting toward improving the mechanical design.
 
@@ -123,14 +133,10 @@ Planned upgrades include:
 - Formula One chassis
 - Brushless motor support
 
-![Current Build](images/current_build.jpg)
-
+---
 
 # Notes
 
-The dates above are intentionally grouped because development happened over multiple sessions and exact dates were not recorded. The journal reflects the chronological order of development rather than specific calendar days.
-""")
+![Current Build](images/current_build.jpg)
 
-path="/mnt/data/JOURNAL.md"
-Path(path).write_text(md, encoding="utf-8")
-print(path)
+The dates above are intentionally grouped because development happened over multiple sessions and exact dates were not recorded. The journal reflects the chronological order of development rather than specific calendar days.
