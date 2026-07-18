@@ -126,7 +126,6 @@ ESP8266-PS4-RC/
 ├── ESP8266_PS4_RC_Firmware.ino
 ├── PS4_RC_Bridge_v2.py
 ├── README.md
-└── LICENSE
 ```
 
 ---
