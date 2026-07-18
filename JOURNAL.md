@@ -13,9 +13,6 @@ I started this project to learn more about robotics, embedded systems, and RC ve
 
 **Total time spent: 0.5 hours**
 
-# Electronics and Wiring
-
-The first hardware milestone was wiring the ESP8266 to the L293N motor driver. PWM-capable pins were selected for both enable pins so the speed of each motor could be controlled independently. After completing the wiring, I verified that both motors responded correctly before beginning firmware development.
 
 ## Pinout
 
