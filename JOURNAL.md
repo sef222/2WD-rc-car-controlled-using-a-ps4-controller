@@ -11,7 +11,7 @@ I started this project to learn more about robotics, embedded systems, and RC ve
 
 ![Current Build](images/current_build.jpg)
 
-**Total time spent: 2 hours**
+**Total time spent: 0.5 hours**
 
 # Electronics and Wiring
 
@@ -30,7 +30,7 @@ The first hardware milestone was wiring the ESP8266 to the L293N motor driver. P
 
 ![Wiring](images/wiring.jpg)
 
-**Total time spent: 2 hours**
+**Total time spent: 0.5 hours**
 
 # First Firmware
 
@@ -38,7 +38,7 @@ The first firmware created a Wi-Fi access point so a phone could connect directl
 
 ![Current Build](images/current_build.jpg)
 
-**Total time spent: 3 hours**
+**Total time spent: 2 hours**
 
 # Improving the Controls
 
@@ -87,5 +87,3 @@ Planned upgrades:
 - Brushless motor support
 
 ![Current Build](images/current_build.jpg)
-
-**Total time spent: 1 hour**
