@@ -14,7 +14,7 @@ After experimenting with the browser controls, I decided to move to a real contr
 
 # PS4 Controller Integration
 
-![Current Build](images/current_control.jpg)
+![Current Bridge](images/current_controlpc.jpg)
 
 Instead of connecting the controller directly to the ESP8266, I wrote a Python bridge application.
 
@@ -41,7 +41,7 @@ Current controls:
 
 # Firmware Improvements
 
-![Current Build](images/current_control.jpg)
+![Current Control](images/current_control.jpg)
 
 Several improvements were made while testing:
 
