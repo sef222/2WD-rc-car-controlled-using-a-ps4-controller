@@ -33,7 +33,7 @@ I started this project to learn more about robotics, embedded systems, and RC ve
 
 The first firmware created a Wi-Fi access point so a phone could connect directly to the ESP8266. I designed a browser interface containing a virtual joystick together with speed, steering compensation, and braking controls. This version successfully demonstrated wireless motor control and verified that the electronics were working correctly.
 
-![Current Build](images/current_build.jpg)
+![Current Build](images/old_control.jpg)
 
 **Total time spent: 2 hours**
 
